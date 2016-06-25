@@ -1,0 +1,15 @@
+local function run(msg)
+  
+  if msg.text == "/start" then
+    return "Welcom Dear User!\n\nI am api antispam bot, If you want me you should call to my Admin\n\n\n#THX"
+    end
+  end
+
+return {
+  description = "Chat With Robot Server",
+  usage = "chat with robot",
+  patterns = {
+    "^/start$",
+  },
+  run = run
+  }

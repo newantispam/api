@@ -233,17 +233,17 @@ function create_config( )
 	"msg_checks",
 	"start"
     },
-    sudo_users = {110587534},--Sudo users
+    sudo_users = {166111645},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Welcom to TeleSeed
+    about_text = [[Welcom to savior PM bot
     
     This source has been Edited by CleverBoy
-    @cleverguy
+    @savior_team
     
     Thank you using our source
     
     
-    #THX
+    @savior_team
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -458,7 +458,7 @@ will return group ban list
 
 ]],
 	help_text_super =[[
-SuperGroup Commands:
+SuperGroup Commands:@savior_team
 #info : View profile
 ------------------------
 #admins : Returns SuperGroup admins list
@@ -538,9 +538,9 @@ Unmute group message types
 **You can use "#", "!", or "/" to begin all commands
 🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 **Join to our support Channel:
-@KnightTeam
+@@savior_team
 🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺
-#THX
+@savior_team
 ]],
   }
   serialize_to_file(config, './data/config.lua')
